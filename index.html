@@ -1,0 +1,213 @@
+<!-- Hi, I am Ray.
+Welcome to my web development project! I am a web developer in training, 
+and this project is an opportunity for me to practice my skills and build my portfolio. 
+I am excited to share my work with you and hope that you will find it interesting and helpful. 
+Thank you for visiting my project, and I hope you will come back to see what I have been working on. 
+If you have any feedback or suggestions, I would love to hear from you. 
+Thank you for your support as I continue to learn and grow as a web developer. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pawsitively</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <!-- css style sheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&family=Ubuntu&display=swap" rel="stylesheet">  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="">Pawsitively</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Donwload</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class = "row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Make your pet feels joyful when you are not around at Pawsitively.</h1>
+          <button class="btn btn-secondary btn-lg download-button" type="button"><i class="fa-brands fa-app-store-ios"></i> Download</button>
+          <button class="btn btn-outline-light btn-lg download-button" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+      <div class = "col-lg-6">
+        <img class="title_image" src="images/dog-2.jpg" alt="dog-img-2">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+  <section class="non-colored-section" id="features">
+    <div class="container-fluid">
+      <div class="row">    
+        <div class="feature-box col-lg-4">
+          <i class="fa-solid fa-sack-dollar fa-4x feature-icon"></i>
+          <h3 class="feature-text">Save Money</h3>
+          <p>15% Lower than other pet daycare </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="fa-solid fa-user-tie fa-4x feature-icon"></i>
+          <h3 class="feature-text">Professional</h3>
+          <p>All our staff have been trained more than 6 month before working on site </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="fa-solid fa-star fa-4x feature-icon"></i>
+          <h3>Most Rated App in Town</h3>
+          <p>Highest review of pet daycare in town on google map</p>
+        </div>
+    </div>
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+      <div id="testimonials-example" class="carousel slide">
+        <div class="carousel-inner ">
+            <div class="carousel-item active container-fluid">
+              <h2 class="testimonial-text">My dog always has a great time at Pawsitively! The staff is so friendly and the facilities are clean and well-maintained. I highly recommend this pet daycare.</h2>
+              <img class="profile-img" src="images/pro-pic-1.jpg" alt="profile-pic-1">
+              <em>Alex, Regina</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="testimonial-text">I've been taking my dog to Pawsitively for years and have always been extremely satisfied. The staff is wonderful and the play areas are spacious and well-equipped.</h2>
+              <img class="profile-img" src="images\profile-2.jpg" alt="profile-pic-2">
+              <em>Andy, Saskatoon</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="testimonial-text">I was nervous about leaving my dog at a pet daycare for the first time, but the staff at Pawsitively! was so kind and reassuring. My dog had a great time and I will definitely be bringing him back.</h2>
+              <img class="profile-img" src="images\profile-3.jpg" alt="profile-pic-3">
+              <em>Kim, Edmonton</em>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-example" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonials-example" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+
+
+  <!-- Press -->
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images\logoipsum-288.svg" alt="fake-logo-1">
+    <img class="press-logo" src="images\logoipsum-287.svg" alt="fake-logo-2">
+    <img class="press-logo" src="images\logoipsum-265.svg" alt="fake-logo-3">
+    <img class="press-logo" src="images\logoipsum-260.svg" alt="fake-logo-4">
+  </section>
+
+
+  <!-- Pricing -->
+  <section class="non-colored-section" id="pricing">
+    <div class="pricing-header text-center">
+      <h1 class="fs-lg">Pricing</h1>
+      <p class="fs-5 text-muted">Choose the Perfect Daycare Package for Your Furry Friend at Pawsitively</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col pricing-column">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal fs-2">Hourly</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$20<small class="text-muted fw-light">/hr</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="price-text">This option is good for pet owners who only need a few hours of daycare at a time.</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+      <div class="col pricing-column">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal fs-2">Half Day</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$40<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="price-text">This option is good for pet owners who need a full morning or afternoon of daycare.</li>
+
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+      <div class="col pricing-column">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal fs-2">Full day</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$70<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="price-text">This option is good for pet owners who need a full day of daycare and want the convenience of being able 
+                to drop their pet off in the morning and pick them up in the evening.</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="cta-text">Thank you for visiting Pawsitively. If you have any questions or would like to make a booking, please don't hesitate to contact us. We look forward to welcoming you and your furry friend.</h3>
+      <button class="btn btn-secondary btn-lg download-button" type="button"><i class="fa-brands fa-app-store-ios"></i> Download</button>
+      <button class="btn btn-outline-light btn-lg download-button" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="non-colored-section" id="footer">
+    <div class="container-fluid">
+      <a href="instagram.com"><i class="fa-brands fa-instagram fa-2x social-icon"></i></a>
+      <a href="facebook.com"><i class="fa-brands fa-facebook fa-2x social-icon"></i></a>
+      <a href="twitter.com"><i class="fa-brands fa-twitter fa-2x social-icon"></i></a>
+      <p>© Copyright Pawsitively</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
